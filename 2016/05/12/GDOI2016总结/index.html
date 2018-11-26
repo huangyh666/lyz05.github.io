@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="TnAzqOwlN92ezDZfYD2sctnKimzMJ84aEatupo9fMh0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="总结," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="概述第二年亦是最后一年GDOI。那当然就是去旅游的啦！像我这种连NOIP一等奖都拿不到的蒟蒻……今年GDOI在四会中学进行哦！$成绩 = 50+90+0$ DAY0本想着今年四会会比去年粤北地区韶关好一点的。结果……在车上，我和龙哥还预测着我们会住哪个宾馆。结果，让我们感受一下距离。遥想去年此刻，我们还能步行回宾馆。然而这里的宾馆真的什么都没有，也多亏我们选了一个很好的5楼房间。这里的电梯只能到4">
+<meta name="keywords" content="总结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GDOI2016旅游记">
+<meta property="og:url" content="http://lyz05.github.io/2016/05/12/GDOI2016总结/index.html">
+<meta property="og:site_name" content="Lyz&#39;s Blog">
+<meta property="og:description" content="概述第二年亦是最后一年GDOI。那当然就是去旅游的啦！像我这种连NOIP一等奖都拿不到的蒟蒻……今年GDOI在四会中学进行哦！$成绩 = 50+90+0$ DAY0本想着今年四会会比去年粤北地区韶关好一点的。结果……在车上，我和龙哥还预测着我们会住哪个宾馆。结果，让我们感受一下距离。遥想去年此刻，我们还能步行回宾馆。然而这里的宾馆真的什么都没有，也多亏我们选了一个很好的5楼房间。这里的电梯只能到4">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://lyz05.github.io/images/GDOI2016/地图.png">
+<meta property="og:image" content="http://lyz05.github.io/images/GDOI2016/楼梯间.png">
+<meta property="og:image" content="http://lyz05.github.io/images/GDOI2016/饭堂.png">
+<meta property="og:image" content="http://lyz05.github.io/images/GDOI2016/20160503183122071">
+<meta property="og:image" content="http://lyz05.github.io/images/GDOI2016/旅游.png">
+<meta property="og:image" content="http://lyz05.github.io/images/GDOI2016/闭幕式.png">
+<meta property="og:updated_time" content="2018-11-25T13:42:04.548Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GDOI2016旅游记">
+<meta name="twitter:description" content="概述第二年亦是最后一年GDOI。那当然就是去旅游的啦！像我这种连NOIP一等奖都拿不到的蒟蒻……今年GDOI在四会中学进行哦！$成绩 = 50+90+0$ DAY0本想着今年四会会比去年粤北地区韶关好一点的。结果……在车上，我和龙哥还预测着我们会住哪个宾馆。结果，让我们感受一下距离。遥想去年此刻，我们还能步行回宾馆。然而这里的宾馆真的什么都没有，也多亏我们选了一个很好的5楼房间。这里的电梯只能到4">
+<meta name="twitter:image" content="http://lyz05.github.io/images/GDOI2016/地图.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://lyz05.github.io/2016/05/12/GDOI2016总结/"/>
+
+
+
+
+
+  <title>GDOI2016旅游记 | Lyz's Blog</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9f650b07fb0f9e14020b6f41ec612bc6";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Lyz's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Never Give Up</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://lyz05.github.io/2016/05/12/GDOI2016总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lyz05">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars1.githubusercontent.com/u/11796777?v=3&u=50a5c9e9df83a5be6d556b91ced95195d029f88e&s=140">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lyz's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">GDOI2016旅游记</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-05-12T15:44:38+08:00">
+                2016-05-12
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-25T21:42:04+08:00">
+                2018-11-25
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/信息学/" itemprop="url" rel="index">
+                    <span itemprop="name">信息学</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/信息学/原创/" itemprop="url" rel="index">
+                    <span itemprop="name">原创</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2016/05/12/GDOI2016总结/" class="leancloud_visitors" data-flag-title="GDOI2016旅游记">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="u6982_u8FF0"><a href="#u6982_u8FF0" class="headerlink" title="概述"></a>概述</h1><p>第二年亦是最后一年GDOI。那当然就是去旅游的啦！<br>像我这种连NOIP一等奖都拿不到的蒟蒻……<br>今年GDOI在四会中学进行哦！<br>$成绩 = 50+90+0$</p>
+<h1 id="DAY0"><a href="#DAY0" class="headerlink" title="DAY0"></a>DAY0</h1><p>本想着今年四会会比去年粤北地区韶关好一点的。结果……<br>在车上，我和龙哥还预测着我们会住哪个宾馆。结果，让我们感受一下距离。<br><img src="\images\GDOI2016\地图.png" alt="地图"><br>遥想去年此刻，我们还能步行回宾馆。<br>然而这里的宾馆真的什么都没有，也多亏我们选了一个很好的5楼房间。这里的电梯只能到4楼，并且每一个楼梯间都能通到不同的5楼。幸亏凭借我们高超的智商，很快就找到了我们的房间。<br>但对于住8楼的同学，我就是在无能为力了，真搞不懂为什么对面的1楼是8楼。其实，最好的房间应该是8楼，有液晶电视哦！！我们那边还是显像管电视，龙哥带了各种转接线，然而并无卵用。<br>让我们感受一下神奇的5楼楼梯间。<br><img src="\images\GDOI2016\楼梯间.png" alt="楼梯间"><br>尤其吐槽的是4号车，新车甲醛味道可真重啊！<br>学校感觉还不错，饭菜也比去年正常多了。听说，有机会试机，然而，我连机房在哪都不知道。<br><img src="\images\GDOI2016\饭堂.png" alt="饭堂"></p>
+<h1 id="DAY1"><a href="#DAY1" class="headerlink" title="DAY1"></a>DAY1</h1><p>早早的起来了!!我们不慌不忙的来到了宾馆1楼的食堂。WTF！！！<br>（此处允许我盗图，来源：dwj）<br><img src="\images\GDOI2016\20160503183122071" alt="1楼"><br>于是，我们做出了在学校买好早餐，明天吃的决定。<br>到了考场，8:00左右，推迟了15分钟开考吧！反正在此之前，我是真心什么都没准备的！</p>
+<h2 id="T1_3A_u4E2D_u5B66_u751F_u6570_u5B66_u9898"><a href="#T1_3A_u4E2D_u5B66_u751F_u6570_u5B66_u9898" class="headerlink" title="T1:中学生数学题"></a>T1:中学生数学题</h2><p>自从今年GDKOI开始各种各样的学生就来了，就差幼儿园了…<br>这不就是二次函数求最大值吗？？难道不能直接算，算算发现不对，有向下取整操作！但本人坚信此题可以O(1)出解，鸟都不鸟下面的数据范围。化简成二次函数之后，可以直接求出最大的利润P，然后反推回去$n=\lfloor n0-kp \rfloor$得到n,然后尝试将P在增大,但不会超过所计算出的n。<br>可能这种方法是错的…对于第二问，推了一下子，好像还要分类讨论，看起来很复杂的样子，那就算了….</p>
+<h2 id="T2_3A_u6700_u957F_u516C_u5171_u5B50_u4E32"><a href="#T2_3A_u6700_u957F_u516C_u5171_u5B50_u4E32" class="headerlink" title="T2:最长公共子串"></a>T2:最长公共子串</h2><p>感觉上是dp题嘛，像我这种暴力选手。当然要用暴力的方法。<br>通过第二个样例可以发现，区间可以合并，我们并不需要求最少的替换次数，所以可以不用管。<br>这样我们可以把所有能合并的区间合并，得到一个大集合，由若干个小集合所组成。这样我们可以枚举两个区间，对于左右两个最边边的区间，里面的元素可以不用取光，中间集合中的元素必须全部取光。用这种方法去做搜索匹配就好了!时间复杂度就是能匹配成功的所有序列长度的和。<br>然而这样做虽然在随机数据状态下表现良好，但如果有些用心良苦的数据，GG！</p>
+<h2 id="T3_3A_u6709_u8DA3_u7684_u4E00_u5173"><a href="#T3_3A_u6709_u8DA3_u7684_u4E00_u5173" class="headerlink" title="T3:有趣的一关"></a>T3:有趣的一关</h2><p>期望弃疗！亏我刚学过数学期望，还要列什么分布列，然而并无卵用，连样例都不知道是怎么出来的还做什么做！！</p>
+<h2 id="T4_3A_u75AF_u72C2_u52A8_u7269_u57CE"><a href="#T4_3A_u75AF_u72C2_u52A8_u7269_u57CE" class="headerlink" title="T4:疯狂动物城"></a>T4:疯狂动物城</h2><p>这次旅游的一项任务就是看疯狂动物城，然而考试的时候并没有看。这是剧透啊！！！不能忍啊！！！而且还把如此呆萌的Flash改的如此邪恶！！！(⊙﹏⊙)b<br>据说WWT大神被delta异或给坑了，然而我已经不记得我怎么打得了，好像这题有20分。<br>提炼题目就是，两个点之间的距离乘上一个累加值的和。因为有累加值，所以倍增无能啊！那我就一个个跳咯！考验一下调试代码的能力，虽说有20%的特殊数据，但也想不到怎么做…</p>
+<p>DAY1就大致这样了，评奖的时候顺便刷一波日剧……<br>据说是为了提升我省队选手的数学水平，所以有了这份试题！！</p>
+<font color="#FFFFFF">《我的乖乖女》你看不到我！！</font>
+
+<h1 id="DAY2"><a href="#DAY2" class="headerlink" title="DAY2"></a>DAY2</h1><p>早餐队伍奇迹般消失了，终于吸取教训了……</p>
+<h2 id="T1_3ASigemaGO"><a href="#T1_3ASigemaGO" class="headerlink" title="T1:SigemaGO"></a>T1:SigemaGO</h2><p>spfa直接上，但是有个问题，如果我对所有的$(u,v’)(v’,v)$中的$(u,v)$都连一条边,那会超时的,而且spfa也忘了有个神奇的队列优化。然而最后有2个崩溃，6个WA，表示不知为何WA…</p>
+<h2 id="T2_3A_u68EE_u6797_u4E4B_u5BB6"><a href="#T2_3A_u68EE_u6797_u4E4B_u5BB6" class="headerlink" title="T2:森林之家"></a>T2:森林之家</h2><p>这个游戏挺有趣的嘛，回去下了一下来玩，然而国产某mi手机没有GOOGLE应用框架啊！穷人玩不起啊！<br>像我这种傻逼，肯定直接搜索啊！我什么剪枝好像都没加，就有了50。(⊙﹏⊙)b！</p>
+<h2 id="T3_3A_u673A_u5BC6_u7F51_u7EDC"><a href="#T3_3A_u673A_u5BC6_u7F51_u7EDC" class="headerlink" title="T3:机密网络"></a>T3:机密网络</h2><p>只需要解决第1问，那就随便枚举跑图咯</p>
+<h2 id="T4_3A_u98DE_u673A"><a href="#T4_3A_u98DE_u673A" class="headerlink" title="T4:飞机"></a>T4:飞机</h2><p>看题目弃疗，什么小岛啊，边长啊，联通块啊！都是浮云…</p>
+<h1 id="DAY3"><a href="#DAY3" class="headerlink" title="DAY3"></a>DAY3</h1><p>早早就知道没戏了…做好去旅游的准备，然而其实就是步行瞎走，然后当地气温倍儿高。所以，干脆折返看剧算了！！送上一副图。<br><img src="\images\GDOI2016\旅游.png" alt="旅游"></p>
+<h1 id="DAY4"><a href="#DAY4" class="headerlink" title="DAY4"></a>DAY4</h1><p>坐车到闭幕式现场就已经迟到了，这次会议比去年快多了呀！当听到郭老师说这次15人终于不是这两个学校垄断时，居然莫名喜感。其实还是垄断了呀！但是石门的消失我还是很惊讶的！<br><img src="\images\GDOI2016\闭幕式.png" alt="GDOI闭幕式"><br>带来的精神食粮也差不多用完了，辛亏有充足的准备，才能在这种不能用的wifi状态下挺过去。</p>
+<font color="#FFFFFF">《我的乖乖女》萌萌果的声音真是太软了，接受无能啊！《相棒》还是觉得s10e10好！当然也有几级脑洞挺大的！相比脑残《柯南》算是非常好的了。</font>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/总结/" rel="tag"># 总结</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/11/网盘的那些事/" rel="next" title="网盘的那些事">
+                <i class="fa fa-chevron-left"></i> 网盘的那些事
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/10/24/红米3S玩机系列/" rel="prev" title="红米3S玩机系列">
+                红米3S玩机系列 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="https://avatars1.githubusercontent.com/u/11796777?v=3&u=50a5c9e9df83a5be6d556b91ced95195d029f88e&s=140"
+                alt="lyz05" />
+            
+              <p class="site-author-name" itemprop="name">lyz05</p>
+              <p class="site-description motion-element" itemprop="description">怯,你就会输一辈子</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">57</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">28</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/lyz05" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:liuyuanzhe0515@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://www.zhihu.com/people/liu-yuan-zhe-16" target="_blank" title="知乎">
+                      
+                        <i class="fa fa-fw fa-globe"></i>知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://www.douban.com/people/140286755/" target="_blank" title="豆瓣">
+                      
+                        <i class="fa fa-fw fa-globe"></i>豆瓣</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.byvoid.com/" title="byvoid" target="_blank">byvoid</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://hzwer.com/" title="hzwer" target="_blank">hzwer</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.zhihu.com/people/excited-vczh" title="vczh" target="_blank">vczh</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.ghibli.jp/" title="GHIBLI" target="_blank">GHIBLI</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#u6982_u8FF0"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DAY0"><span class="nav-number">2.</span> <span class="nav-text">DAY0</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DAY1"><span class="nav-number">3.</span> <span class="nav-text">DAY1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#T1_3A_u4E2D_u5B66_u751F_u6570_u5B66_u9898"><span class="nav-number">3.1.</span> <span class="nav-text">T1:中学生数学题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T2_3A_u6700_u957F_u516C_u5171_u5B50_u4E32"><span class="nav-number">3.2.</span> <span class="nav-text">T2:最长公共子串</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T3_3A_u6709_u8DA3_u7684_u4E00_u5173"><span class="nav-number">3.3.</span> <span class="nav-text">T3:有趣的一关</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T4_3A_u75AF_u72C2_u52A8_u7269_u57CE"><span class="nav-number">3.4.</span> <span class="nav-text">T4:疯狂动物城</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DAY2"><span class="nav-number">4.</span> <span class="nav-text">DAY2</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#T1_3ASigemaGO"><span class="nav-number">4.1.</span> <span class="nav-text">T1:SigemaGO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T2_3A_u68EE_u6797_u4E4B_u5BB6"><span class="nav-number">4.2.</span> <span class="nav-text">T2:森林之家</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T3_3A_u673A_u5BC6_u7F51_u7EDC"><span class="nav-number">4.3.</span> <span class="nav-text">T3:机密网络</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T4_3A_u98DE_u673A"><span class="nav-number">4.4.</span> <span class="nav-text">T4:飞机</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DAY3"><span class="nav-number">5.</span> <span class="nav-text">DAY3</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DAY4"><span class="nav-number">6.</span> <span class="nav-text">DAY4</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">lyz05</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("XIvfHitkQpcIdYONge8baBBR-gzGzoHsz", "nV8vEtsT9WYR9pGPCxEXyqWl");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
